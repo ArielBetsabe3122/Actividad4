@@ -29,7 +29,8 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Proyectos</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre Mí</a></li>
+                  
+                  .  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre Mí</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
                     <li class="nav-item ms-lg-3 py-2 py-lg-0">
                         <button class="btn-theme" id="btnTheme" onclick="alternarTema()" title="Cambiar Tema">
@@ -57,14 +58,14 @@
                 <div class="divider-custom-line"></div>
             </div>
             
-            <p class="masthead-subheading font-weight-light mb-0">Desarrolladora Web & Creadora de Identidades Digitales</p>
+            <p class="masthead-subheading font-weight-light mb-0">Desarrolladora Web</p>
         </div>
     </header>
 
     <!-- 3. REJILLA DE PORTAFOLIO -->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mis Proyectos</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mi Perfil </h2>
             
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -72,34 +73,63 @@
                 <div class="divider-custom-line"></div>
             </div>
             
-            <!-- Grid de marcadores de posición -->
+            <!-- Grid de Información Personal y Proyectos -->
             <div class="row justify-content-center g-4">
-                <!-- Tarjeta 1 -->
+                
+                <!-- Tarjeta 1: Sobre Mí -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="card-cuerpo-item p-5 text-center border rounded shadow-sm">
-                        <i class="bi bi-folder-plus display-4 text-purple mb-3"></i>
-                        <h4 class="fw-bold fs-5 text-secondary">Nuevo Desarrollo</h4>
-                        <span class="badge bg-secondary-subtle text-secondary-emphasis">Próximamente</span>
+                    <div class="card-cuerpo-item p-4 text-center border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <i class="bi bi-person-vcard display-4 text-purple mb-3"></i>
+                            <h4 class="fw-bold fs-5 text-secondary mb-3">Sobre Mí</h4>
+                            <p class="text-muted small text-start lh-lg">
+                                Estudiante de Ingeniería en Sistemas Computacionales con interés profesional hacia la infraestructura tecnológica, la administración de redes y la arquitectura de sistemas distribuidos. Mi formación me ha permitido desarrollar un pensamiento lógico y estructurado para resolver problemas técnicos complejos, con el objetivo de diseñar e implementar entornos de conectividad estables, optimizados y altamente seguros que respondan a las demandas del sector empresarial.
+                            </p>
+                        </div>
+                        <div class="mt-2">
+                            <span class="badge bg-purple-subtle text-purple border border-purple px-3 py-2">Perfil Profesional</span>
+                        </div>
                     </div>
                 </div>
 
-                
+                <!-- Tarjeta 2: Habilidades -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="card-cuerpo-item p-5 text-center border rounded shadow-sm">
-                        <i class="bi bi-folder-plus display-4 text-purple mb-3"></i>
-                        <h4 class="fw-bold fs-5 text-secondary">Nuevo Desarrollo</h4>
-                        <span class="badge bg-secondary-subtle text-secondary-emphasis">Próximamente</span>
+                    <div class="card-cuerpo-item p-4 text-center border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <i class="bi bi-diagram-3 display-4 text-purple mb-3"></i>
+                            <h4 class="fw-bold fs-5 text-secondary mb-3">Habilidades</h4>
+                            <p class="text-muted small text-start lh-lg">
+                                Sólidos conocimientos en el diseño y simulación de topologías de red, esquemas de direccionamiento IP mediante subneteo variable (VLSM) y configuración de routing y switching en entornos simulados. Adicionalmente, cuento con experiencia práctica en la administración y despliegue de servidores bajo diferentes arquitecturas operativas, gestión de sistemas de bases de datos relacionales y no relacionales, así como en la implementación de entornos virtuales controlados y aislados.
+                            </p>
+                        </div>
+                        <div class="mt-2 d-flex flex-wrap gap-1 justify-content-center">
+                            <span class="badge bg-light text-dark border">Cisco Packet Tracer</span>
+                            <span class="badge bg-light text-dark border">VirtualBox</span>
+                            <span class="badge bg-light text-dark border">VLSM / Subnetting</span>
+                            <span class="badge bg-light text-dark border">Linux/Windows Server</span>
+                        </div>
                     </div>
                 </div>
 
-                
+                <!-- Tarjeta 3: Tecnologías a Dominar y Proyectos Futuros -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="card-cuerpo-item p-5 text-center border rounded shadow-sm">
-                        <i class="bi bi-folder-plus display-4 text-purple mb-3"></i>
-                        <h4 class="fw-bold fs-5 text-secondary">Nuevo Desarrollo</h4>
-                        <span class="badge bg-secondary-subtle text-secondary-emphasis">Próximamente</span>
+                    <div class="card-cuerpo-item p-4 text-center border rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <i class="bi bi-globe display-4 text-purple mb-3"></i>
+                            <h4 class="fw-bold fs-5 text-secondary mb-3">Proyectos futuros y tecnologias que quisiera dominar</h4>
+                            <p class="text-muted small text-start lh-lg">
+                                Orientada a dominar el despliegue de infraestructuras de red avanzadas y tecnologías de automatización (como Ansible). Mi meta a corto plazo incluye el desarrollo de proyectos clave como la simulación integral de una infraestructura de red corporativa multisitio con redundancia, firewalls robustos y enrutamiento dinámico; además de la implementación de servidores de producción integrados con contenedores (Docker) y arquitecturas Cloud Computing híbridas.
+                            </p>
+                        </div>
+                        <div class="mt-2 d-flex flex-wrap gap-1 justify-content-center">
+                            <span class="badge bg-secondary-subtle text-secondary-emphasis">Routing Dinámico</span>
+                            <span class="badge bg-secondary-subtle text-secondary-emphasis">Ansible / DevOps</span>
+                            <span class="badge bg-secondary-subtle text-secondary-emphasis">Docker / K8s</span>
+                            <span class="badge bg-secondary-subtle text-secondary-emphasis">Cloud Networking</span>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
